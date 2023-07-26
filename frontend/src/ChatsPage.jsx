@@ -9,7 +9,7 @@ const ChatsPage = (props) => {
     <div className="background">
       <PrettyChatWindow
         // projectId={import.meta.env.VITE_CHAT_ENGINE_PROJECT_ID}
-        projectId={"36100285-ed0f-4b51-b704-3b27a598708c"}
+        projectId={import.meta.env.VITE_CHAT_ENGINE_PROJECT_ID}
         username={props.user.username}
         secret={props.user.secret}
         style={{ font: 'Kollektif'}}
